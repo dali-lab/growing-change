@@ -133,11 +133,15 @@ h6 {
 }
 
 .dropdown {
-	opacity:0;
+	display:none;
 }
 
 .has-sub:hover ul {
-	opacity:1;
+	display:block;
+}
+
+.has-sub:hover ul li {
+	display:inline;
 }
 
 .navbar-nav > .active > a {
